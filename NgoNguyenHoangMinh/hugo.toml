@@ -1,0 +1,16 @@
+baseURL = 'https://NgoNguyenHoangMinh/'
+languageCode = 'en-us'
+title = 'Learning Blog'
+theme= 'PaperMod'
+
+[menu]
+  [[menu.main]]
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="Post"
+    name = 'Post'
+    url = '/post/'
+    weight = 20
